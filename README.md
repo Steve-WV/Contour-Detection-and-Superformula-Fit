@@ -1,6 +1,6 @@
 # Contour Detection and Superformula Fit
 
-The code provides detection of contours using the **OpenCV** library and computes the best fit by *<a href = https://en.wikipedia.org/wiki/Superformula> Gielis' superformula<a/>**.
+The code provides detection of contours using the **OpenCV** library and computes the best fit by **<a href = https://en.wikipedia.org/wiki/Superformula> Gielis' superformula<a/>**.
 
 Fitting is done by the **minimize** method included in **scipy.optimize** using the **COBYLA** algorithm.
 
