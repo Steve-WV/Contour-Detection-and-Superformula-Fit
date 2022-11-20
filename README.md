@@ -6,4 +6,4 @@ Fitting is done by the **minimize** method included in **scipy.optimize** using 
 
 Code can be tested with the included sample image by adding the suffix  **--image leaf.JPG** in the command line.
 
-The picture "leave.JPG" provided was taken by the author of this Code.
+The picture "leaf.JPG" provided was taken by the author of this code.
