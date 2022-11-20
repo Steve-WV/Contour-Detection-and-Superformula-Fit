@@ -4,6 +4,6 @@ The code provides detection of contours using the **OpenCV** library and compute
 
 Fitting is done by the **minimize** method included in **scipy.optimize** using the **COBYLA** algorithm.
 
-Code can be tested with the included sample image by adding the suffix  **--image leave.JPG** in the command line.
+Code can be tested with the included sample image by adding the suffix  **--image leaf.JPG** in the command line.
 
 The picture "leave.JPG" provided was taken by the author of this Code.
