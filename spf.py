@@ -141,7 +141,7 @@ for i in range(0,l):
 	r_test[i]+=spf(theta1[i],para_spf[0],para_spf[1],para_spf[2],para_spf[3],para_spf[4],para_spf[5],para_spf[6])
 	
 #Root mean square error and plotting with superformula
-print(f'Root mean square error w.r.t. contour and superformula interpolation: \n {(np.sqrt(np.sum((fx-r_test)**2)))/l}')
+print(f'Root mean square error w.r.t. contour and superformula interpolation: \n {np.sqrt(np.sum((fx-r_test)**2)/l)}')
 plt.plot(np.hstack((x1,x1[0])),np.hstack((y1,y1[0])),linewidth=2.5, label='Superformula Fit')
 plt.plot((1/b_r)*np.hstack((x_test,x_test[0])),(1/b_r)*np.hstack((y_test,y_test[0])),linewidth=2.5, label='Measured Contour')
 plt.legend(fontsize=12)
